@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: none;
+    transition-timing-function: ease-in-out;
+    transition: 0s;
+}
+
+.home-page {
+    font-size: 4rem;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    font-size: 3rem;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+.container {
+    margin: 1rem;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.topnav {
+    
+    color: transparent;
+    background-color: none;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 25vw;
+    padding: 0 1.5vw;
+    padding-right: 5vw;
+    padding-top: 5vh;
+    margin: 0%;
+    margin-top: 0vh;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    max-width: 100%;
+    top: 0;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+
+    
+}
+
+.topnav_disappear {
+    color: white;
+}
+
+.topnav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    gap: 0.1vw;
+}
+
+.topnav a {
+    color: inherit;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0.25vw;
+    font-family: 'Arima Madurai', cursive;
+
+}
+
+.home-text {
+    font-size: 5vw;
+    text-decoration: none;
+}
+
+.topnav li {
+    margin-top: -5vh;
+    margin-left: 2vw;
+    margin-right: 6vw;
+    font-size: 2vw;
+}
+
+.topnav li.inactive {
+    text-decoration: none;
+}
+
+.topnav li.active {
+    text-decoration: none;
+}
+
+.topnav li:active {
+    color: red;
+}
+
+.topnav_img {
+    width: 11vw;
+    height: 8.5vw;
+    margin-top: -4vh;
+    visibility: visible;    
+}
+
+.title {
+    color: white;
+    background-image: url(images/homeimageplaceholder.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.titleContent {
+    padding-top: 25vh;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Arima Madurai', cursive;
+    
+}
+
+.titleContent p {
+    width: 60vw;
+    text-align: center;
+    padding-left: 20vw;
+    font-size: 2.5vw;
+}
+
+.box {
+    color: white;
+    background-image: url("./images/boxImage.jpg");
+    background-size: cover;
+    height: 150vh;
+    width: 100vw;
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    font-family: 'Arima Madurai', cursive;
+    transition-timing-function: ease-in-out;
+    transition: 1s;
+    margin-bottom: -43vh;
+
+}
+
+.box h1 {
+    padding: 0;
+    margin: 0;
+    padding-top: 6vh;
+    margin-left: -2vw;
+    font-size: 5vw;
+    margin-bottom: 4vh;
+    
+}
+
+.boxTitle {
+    font-size: 2.5vw;
+    margin-left: 0.1vw;
+    margin-right: 0vw;
+    width: 24vw;
+}
+
+.boxContent {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 1vw;
+    width: 20vw;
+    height: 50vh;
+    font-size: 1.4vw;
+    margin-bottom: 3vh;
+    border-color: white;
+    border: 0.1vw;
+    border-style: solid;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    text-align: center;
+    display: flex;
+    align-items: center
+}
+
+.boxShown {
+    border-color: transparent;
+    color: transparent;
+}
+
+.box ul {
+    padding: 0px;
+    padding-left: 1.6vw;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.closing {
+    color: white;
+    font-family:'Arima Madurai', cursive;
+    text-align: center;
+    align-self: center;
+    margin-left: 8.5vw;
+    width: 80vw;
+    height: 40vh;
+    font-size: 1.7vw;
+}
+
+.whyUs {
+    color: white;
+    background-image: url('./images/whyUsimage.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.whyUs h1 {
+    padding: 0;
+    margin: 0;
+    padding-top: 20vh;
+    margin-left: -2vw;
+    font-size: 5vw;
+    margin-bottom: 4vh;
+}
+
+.whyUs p {
+    font-size: 2.6vw;
+    width: 80vw;
+    padding: 4vw;
+    margin-left: 5.4vw;
+    border: white;
+    border: 0.1vw;
+    border-style: solid;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+
+}
+
+.footer {
+    background-color: lightgrey;
+    color: grey;
+    width: 100vw;
+    height: 10vh;
+}
+
+.footer p {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1vw;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.copyright {
+    background-color: darkgray;
+    color: black;
+    width: 100vw;
+    height: 5vh;
+}
+
+.copyright p {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1vw;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
